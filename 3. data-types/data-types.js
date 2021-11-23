@@ -31,13 +31,13 @@
 // var nameVar = String("Hello 123");
 // console.log(nameVar);
 // whatever we write inside String() is considered as a s string
-// var nameVar = "Hello";
+// var nameVar = "Hello 123";
 // console.log(nameVar);
 // console.log(typeof nameVar);
 
 
 // Boolean**********************************
-// Representing logical values
+// Represents logical values
 
 // We can declare a boolean variable in this way
 // it has two values, either true or false
@@ -71,6 +71,8 @@
 // Symbol***************************************
 // To give unique value to variable
 // The Symbol() function creates a new unique value each time you call it:
+
+// we can declare Symbol in this way
 
 // let sym2 = Symbol('foo');
 // let sym3 = Symbol('foo');

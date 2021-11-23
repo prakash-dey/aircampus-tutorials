@@ -13,7 +13,7 @@
     // Assignment operator assign value to the bucket.
     // We can also declare and assign in single line;
 
-// How to read value
+// How to read variable
     // What ever inside the bucket with the name VariableName will be accesed by just calling the bucket name;
     // variableName;
     // console.log(variableName);
