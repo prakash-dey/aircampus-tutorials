@@ -1,0 +1,37 @@
+Javascript basics
+->till now we have learned html for structuring of the content, CSS for styling the content. 
+now we will learn Javascript for adding interactivity.
+-> Don't worry, we are going to learn JS in deep but before that let us see some examples-
+-> On user click the gun is moving right or left, scores are getting updated as game proceed.
+-> we can drag the image gallery and select any image from the gallery
+ -> we can do summation multiplication here.
+
+These are some examples what we can build using javascipt,So cool right? but its not limited to these examples only.
+
+from small action of clicking to complex animation and to write servers we use JavaScript.
+-> Javascript is a programming language using which we add engaging and interactive features in our websites.
+
+
+-> Browser uses two engines to render the webpage.
+	layout engine renders the HTML and css files and JS engine renders the js files
+-> We donot require any extra set up for running JS code, 
+	to debug our JS code we can simply use JS developer tool called as console.
+
+-> you can right click on any webpage and inspect to go to console
+or short cut key for windows- ctrl+shift+J and for mac its cmd+option+J
+
+->You are going to use JS console all throughout the course to run and test javascript code, identify and fix errors
+as well as display messages from your program.
+
+-> let us see some code now.
+-> alert("Hi! want to see some cool thing?"), 
+->prompt("Can you enter something"),
+-> console.log("I am printing in console"), 
+->clear() - clears the console 
+
+-> let me just write a piece of code.
+-> let myName = prompt("May I know your name?");
+	alert(`Hi! ${myName}`);
+-> We can enter our name and it returns the greeting. cool right?
+-> Don't worry about the code right now, we will learn everything in our next modules to understand everything.
+
