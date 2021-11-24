@@ -1,0 +1,57 @@
+Variable
+Most of the time in programming we need to work with information that changes. like- player's score in a game,
+everytime we enter different values in calculator for operation.
+So a programmer needs a way of keeping track of all this infrormation. we store the information that changes
+in something, which is called as variable.
+
+you can consider a variable as container. we can store information inside the container and can use it in our program 
+or manupulate it when required.
+
+In our previous example, we took name as input from the user and stored it in a variable called myName. then we accessed the
+value stored in myName variable to display it on the screen.
+
+
+ok. now let us see how to declare a variable.
+we use a keyword then a variable name and finish it with a semicolon to declare a variable.
+
+ok ok I know that's a big sentence to digest. let us break it and understand part by part.
+
+-> A keyword is something whose meaning is already fixed in the JS engine. if we write the keyword,
+JS engine will automatically understand what to do.
+
+to declare a variable we use var, let or const as keyword.
+when JS engine detects var,let or const keyword it creates a space in memory. you can consider as creating a container
+then the variable name provide a label to the container.
+
+consider the example-
+var score;
+
+var is creating the container and the container is labelled as score
+
+once the creation of the container and labeling is done, we can store any value in the container.
+
+for assigning a value we simply write the name of the variable assign value to it using assignment operator.
+Here equal sign is the assignment operator.
+
+In the example score is assigned value 10;
+So the value 10 goes inside the container and gets stored.
+Again, when we re assign value 20 to the score variable the previous value, i,e 10 gets overriden by 20;
+now the container holds value 20;
+
+we can check value inside the container by just its name.
+
+
+So much of theory. right?
+let's check what ever we have learnt in our console.
+
+*open VS code
+declare a variable;
+var score;
+
+score = 10;
+
+console.log(score);
+
+
+
+
