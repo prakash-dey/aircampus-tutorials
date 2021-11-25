@@ -1,0 +1,134 @@
+We have learned about keywords, we have learned about variable. Now let us learn about the values or the data type.
+
+In program we store data, process it to perform different operation.
+
+like in a calculator we enter any number and based on our selection, calculator process the data and gives us the result.
+in google search bar we write any text, google engine takes the text, processes it and shows us some results.
+
+So what we gave input is data. Data has its type.
+
+We entered number type data in calculator to represent whole number .
+and we provided a string type data in the search engine to represent a text.
+
+ So we can say data type is a type of value a variable has and what type of mathematical, relational or logical operations can be applied to it without causing an error.
+
+We will see that in details, but let us see the types first.
+
+Datatypes are divided mainly into two types. primitive data types and objects
+for this video we will confine our discussion to primitive data types only, we will see objects in out next video.
+
+primitive data types are the fundamental data types in javascipt. 
+These are the 6 primitive data types we use in our program.
+
+let us go to our VS code and learn 1 by 1
+
+//********Number
+// represents numeric values like 1,2, 25.6, 300, -250 
+ it represents every whole number
+
+So how do we declare a number.
+// We can declare a number in this way
+// let num = Number(10);
+// whatever we write inside Number() is considered as a number
+// console.log(num);
+// we can use type of operator to see the type of data.
+// console.log(typeof num);
+
+
+// Or we can write simply this way
+// let num2 = 10;
+// console.log(num);
+// console.log(typeof num);
+* We use this format only
+
+*change multiple values to show how it works. int, float, negative numbers
+
+// String******************************
+let us see what is a string now.
+
+// Alphanumeric characters or simply we can say text
+like in goole we seacrhed about aircampus
+So "aircampus" is a text. combination of some characters
+ 
+// We can declare a string in this way
+
+// var nameVar = String("Hello 123");
+// console.log(nameVar);
+// whatever we write inside String() is considered as a s string
+// var nameVar = "Hello 123";
+// console.log(nameVar);
+// console.log(typeof nameVar);
+
+We can use single quotaion also.
+
+now I can just write as "AirCampus123".
+you all might be getting confused. right?
+how 123 can be a string? It should be a number. right?
+
+let me just show you something. this is the layout of your keyboard. right?
+every key shown here in white color is an aplhanumeric value and we can use them as string.
+Though 123 has numeric value, when we write it inside double quotation it is considered as a string.
+
+So if we write
+
+let num = 123; then 123 is number and we consider as numeric value
+but when we write num = "123" it represents as text.
+like if I write a postal code let postCode = "60000 some country" then it is a string.
+
+Basically whatever we write inside quotaion is a string. it represents text.
+ 
+ 
+
+*change multiple values to show how it works.
+
+
+
+// Boolean**********************************
+
+// Boolean represents logical values
+// it has two values, either true or false
+// We can declare a boolean variable in this way
+
+
+// var nameVar = Boolean(true);
+// console.log(nameVar);
+// console.log(typeof nameVar);
+So what ever we write inside Boolean function is a boolean value;
+
+// var nameVar = true;
+// console.log(nameVar)
+// console.log(typeof nameVar);
+
+You might be thinking now where do we use boolean value. When we proceed in our course in many program based on true false we will be have to handle many conditions.
+when we learn about conditional s
+
+
+
+// Undefined***********************************
+// represents undefined value
+// When we declare a variable but donot assign any value, then this is the default data types provided by JS interpreter.
+// let myName;
+// console.log(myName);
+// console.log(typeof myName);
+
+
+
+// Null*****************************************
+// represents null i.e. no value at all
+// let myName = null;
+// console.log(myName);
+// console.log(typeof myName);
+
+
+
+// Symbol***************************************
+// To give unique value to variable
+// The Symbol() function creates a new unique value each time you call it:
+
+// we can declare Symbol in this way
+
+// let sym2 = Symbol('foo');
+// let sym3 = Symbol('foo');
+// console.log(typeof sym2);
+// console.log(typeof sym3);
+// console.log(sym3===sym2);

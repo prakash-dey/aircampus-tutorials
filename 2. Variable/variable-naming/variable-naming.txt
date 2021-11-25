@@ -1,0 +1,38 @@
+In the last video we have learned to declare and access the values of a variable. But you cannot just
+use any word for naming a variable. There are certain rules you will have to keep in mind.
+
+let's see what are the rules and what happens if we do not obey them.
+
+*Show example of each
+
+// Can not use reserved words 
+var var = 10; // not valid
+
+// cannot contain spaces
+
+// var my name =10;
+
+// Variable names must begin with a letter, an underscore (_) or a dollar sign ($)
+
+// We cannot start naming with number
+// var 1m1y1N1ame =10; 
+
+// We can use underscore
+// var _myName =10; 
+
+
+//  We cannot use special character
+// var $myName@ =10;
+
+// Snake case
+// var variable_name;
+
+// Camel case
+// var variableName; 
+
+
+Pro tips:
+
+// Pro tips
+// Use camel case only
+// Try to name the variable meaningful, so that you do not need to pull your hair later figuring out what is the variable doing in your program.

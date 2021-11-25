@@ -1,22 +1,172 @@
+// Can not use reserved words
+
+// var var;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // cannot contain spaces
 
-// var my name =10;X
+var myname;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Variable names must begin with a letter, an underscore (_) or a dollar sign ($)
 
+// var score;
+// var _score;
+// var $score;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // We cannot start naming with number
-// var 1m1y1N1ame =10; 
+
+// var 1score;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // We can use underscore
-// var _myName =10; 
+
+// var my_name;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 //  We cannot use special character
-// var $myName@ =10;
+
+// var my_name&;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Snake case
 // var variable_name;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Camel case
-// var variableName; 
-// We use mostly camel case in JS 
+
+var myName;
+
+var userName = "Prakash";
+
+
+ 

@@ -51,25 +51,7 @@
 
 
 
-//  let vs var vs const
 
-    // var a=10;
-    //  var a=50;
-    //  no error in declaration;
-
-    // let a=10;
-    // let a=50;
-    // error in declaration;
-
-    // const a=10;
-    //   a=50; // we cannot override the value
-    //  const a;  //We cannot redeclare in same scope;
-    //  no error in declaration;
-
-// Let does not allow to redeclare the same variable in same scope
-// Const does not allow to redeclare as well as re assign the variable
-// If we use const we have to initialize the variable at the time of assignment.
-// Javascript variables are weakly typed or dynamically typed language
 
 
 
