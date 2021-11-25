@@ -1,28 +1,23 @@
-//  let vs var vs const
+// var keyword
+// var a =10;
+// a=15;
+// a=30;
+// var a =50;
+// console.log(a);
 
-    // var a=10;
-    //  var a=50;
-    //  no error in declaration;
 
-    // let a=10;
-    // let a=50;
-    // error in declaration;
+// let keyword
+// let a =10;
+// a=30;
+// a=55;
+// a=56;
+// console.log(a);
 
-    // const a=10;
-    //   a=50; // we cannot override the value
-    //  const a;  //We cannot redeclare in same scope;
-    //  no error in declaration;
+// const keyword
+// const a=10;
+// console.log(a);
 
-// Let does not allow to redeclare the same variable in same scope
-// Const does not allow to redeclare as well as re assign the variable
-// If we use const we have to initialize the variable at the time of assignment.
-// Javascript variables are weakly typed or dynamically typed language
+const a = 10;
 
-var ar = ['one', 'two', 'three'];
-var ar2 = ar; // assign ar to ar2
+console.log(a);
 
-ar2[3] = [2,3,4]; // modify element in ar2
-
-// change to ar2 also changes ar
-console.log( ar ); // ["one", 2, "three"]
-console.log( ar2 )
